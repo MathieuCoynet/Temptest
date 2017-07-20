@@ -13,6 +13,10 @@ html,body{
 
 }
 
+h1, h2, h3, h4{
+
+}
+
 #main{
 	display: flex;
   	flex-flow: row wrap;
@@ -20,6 +24,7 @@ html,body{
 
 .haut, .milieu, .bas{
 	flex: 1 100%;
+	text-align: center;
 }
 
 @media all and (min-width: 600px) {
@@ -36,23 +41,38 @@ html,body{
   .milieu { flex: 2 0px; }
   
   .cote1 { order: 1; }
-  .milieu    { order: 2; }
+  .milieu { order: 2; }
   .cote2 { order: 3; }
   .bas  { order: 4; }
 }
-.haut{
 
-	background-color: green;
+.haut{
+	color: #fff;
+	background-image: url("../img/nav.png");
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+	-o-background-size: cover;
+	background-position: center;
 	width: 100%;
 	height: 30%;
 	margin: auto;
 	display: flex;
+	
+}
 
+.article{
+	background-color: rgba(0, 0, 0, 0.4);
 }
 
 .milieu{
-
-	background-color: red;
+	color: #fff;
+	background-image: url("../img/fall-autumn-red-season.jpg");
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+	-o-background-size: cover;
+	background-position: center;
 	width: 100%;
 	height: 50%;
 	margin: auto;
@@ -62,17 +82,26 @@ html,body{
 
 .cote1{
 
-	background-color: black;
+	background-image: url("../img/pexels-photo-108783.jpeg");
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+	-o-background-size: cover;
+	background-position: center;
 	display: flex;
 }
 
 .cote2{
-	background-color: grey;
+	background-image: url("../img/5142034-hd-pictures.jpg");
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+	-o-background-size: cover;
 	display: flex;
 }
 
 .bas{
-
+	color: #fff;
 	background-color: blue;
 	width: 100%;
 	height: 20%;
@@ -83,7 +112,7 @@ html,body{
 
 footer{
 	background-color: black;
-	position: absolute;
+	position: relative;
 	bottom: 0;
 	left: 0;
 	right: 0;
