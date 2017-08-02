@@ -13,6 +13,7 @@ body{
 	background-image: url("../img/accueil_gorges_tarn_al.jpg");
 	background-attachment: fixed;
 	background-repeat: no-repeat; 
+	background-size: cover;
 	height: 100%;
 	width: 100%;
 	padding: 10px;
