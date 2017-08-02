@@ -41,6 +41,8 @@
 		<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css">
 		<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap-theme.min.css">	
 		<link rel="stylesheet" type="text/css" href="css/styles.css">
+		<link rel="stylesheet" href="owl-carousel/owl.carousel.css">
+        <link rel="stylesheet" href="owl-carousel/owl.theme.css">
 		<script type="text/javascript" src="js/jquery-3.2.1.min"></script>
 		<script src="https://code.jquery.com/jquery-3.0.0.js"></script>
 		<script src="https://code.jquery.com/jquery-migrate-3.0.0.js"></script>
@@ -56,7 +58,7 @@
 	</head>
 
 	<body>
-	
+	 
 
 		<header>
 			<div class="container-fluid">Logo et tout</div>
@@ -91,12 +93,12 @@
 			          </ul>
 			        </li>
 			      </ul>
-			      <form class="navbar-form navbar-left">
+		<!--	      <form class="navbar-form navbar-left">
 			        <div class="form-group">
 			          <input type="text" class="form-control" placeholder="Chercher">
 			        </div>
 			        <button type="submit" class="btn btn-default">Go!</button>
-			      </form>
+			      </form> -->
 			      <ul class="nav navbar-nav navbar-right">
 			        <li><a href="pages/partenaires.html">Partenaires</a></li>
 			        <li class="dropdown">
@@ -120,22 +122,43 @@
 			<section id="main">
 			
 				<div class="haut">	
+				<h1 class="sousti">Cèvennes Web</h2>
 					<div class="photo"></div>
-					<div class="article">
-						<h1 class="sousti">Ici le premier article</h2>
+						<div class="article0">
+							
+							<div class="point">
+								<div class="moit">
+									<button type="button" class="bouton" onclick="toggle_div(this,'resume')">Référencement</button><br>
+									<p id="resume" style="display: none;">Outils de visibilité internet, bla blabal blaablablala blablabla<br>bla blabal blaablablala blablabla<br>bla blabal blaablablala blablabla</p>
+									<button type="button" class="bouton" onclick="toggle_div(this,'resume1')">Référencement</button><br>
+									<p id="resume1" style="display: none;">Outils de visibilité internet</p>
+									<button type="button" class="bouton" onclick="toggle_div(this,'resume2')">Référencement</button><br>
+									<p id="resume2" style="display: none;">Outils de visibilité internet</p>
+								</div>
+								<div class="moit2">
+									<button type="button" class="bouton" onclick="toggle_div(this,'resume3')">Référencement</button><br>
+									<p id="resume3" style="display: none;" >Outils de visibilité internet</p>
+									<button type="button" class="bouton" onclick="toggle_div(this,'resume4')">Référencement</button><br>
+									<p id="resume4" style="display: none;">Outils de visibilité internet</p>
+									<button type="button" class="bouton" onclick="toggle_div(this,'resume5')">Référencement</button><br>
+									<p id="resume5" style="display: none;">Outils de visibilité internet</p>
+								</div>
 
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum commodo sodales vulputate. Nam vel efficitur massa, in cursus arcu. Proin congue ligula nec semper tempor. Aenean euismod et erat sed lobortis. Duis sagittis ullamcorper ex, pretium dapibus sem auctor at. Aliquam et odio lorem. Suspendisse potenti. Nunc ut ligula quis dui vulputate scelerisque sed quis risus. Donec lacus turpis, semper convallis iaculis at, ullamcorper non diam. Sed fringilla consectetur dictum. Maecenas venenatis interdum dignissim. Maecenas at vehicula eros.<br>
+								
+							</div>
+						</div>
+						<div id="projets">
+							<h3> Résumé de nos différents projets</h3>
 
-						Maecenas ac velit metus. In at pretium ipsum. Maecenas finibus purus vel pharetra sagittis. Mauris ut condimentum magna. Morbi rutrum vulputate est et gravida. Aenean dictum ut ante sed mollis. In vehicula felis eu gravida laoreet. Aenean mollis sapien id lectus bibendum, et euismod erat viverra. Proin eget pharetra lacus. Quisque aliquet, nunc in bibendum sodales, mi turpis laoreet elit, vitae pulvinar diam arcu vulputate nibh. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Suspendisse potenti. Fusce faucibus accumsan turpis, non gravida eros tempor at.<br>
+							<ul>
 
-						Pellentesque auctor orci eu elit rutrum, nec condimentum nisl pulvinar. Proin consequat risus ut facilisis luctus. Donec efficitur nisi justo, id maximus mauris tincidunt non. Sed condimentum sapien sit amet nulla feugiat vehicula. Vivamus et rhoncus augue. Cras suscipit leo vel elit placerat consequat. Suspendisse potenti. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Sed consectetur orci ac elit suscipit, eu facilisis justo blandit. Praesent sit amet sem nulla. Praesent pharetra venenatis efficitur. Fusce consequat est vitae tellus lacinia porttitor. Aliquam quis turpis nibh. Quisque nulla neque, luctus sit amet fermentum non, lacinia rhoncus mauris. Donec nisi ante, vestibulum id nisi et, accumsan consectetur orci. Donec vitae purus vehicula ligula egestas sagittis.<br>
+								<li>Projet 1</li>
+								<li>Projet 2</li>
+								<li>Projet 3</li>
+								<li>Projet 4</li>
 
-						Vivamus quis neque sit amet nibh tincidunt bibendum. Nulla a tellus at eros pretium faucibus nec et enim. Curabitur volutpat ipsum et odio tempus, sit amet mollis nunc lacinia. Nullam in velit augue. Ut et nulla sed turpis ornare ultricies. In id finibus sem. Duis sit amet tortor non massa pharetra iaculis ac sed mi. Duis at diam ut magna lobortis dictum. Mauris et lorem consectetur, interdum lectus eget, dignissim neque. Sed porta, lacus a imperdiet vestibulum, elit velit vulputate orci, sit amet posuere mauris tellus fermentum enim.<br>
-
-						Vivamus nec gravida metus. Mauris eget tempus ante. Sed nisi magna, efficitur blandit iaculis non, bibendum eu magna. Proin risus dolor, volutpat a lorem ut, viverra euismod elit. Nulla facilisi. Vestibulum quis tincidunt enim, vel facilisis sapien. In molestie bibendum feugiat. In semper tempus mauris id lacinia. Aliquam scelerisque enim vel nunc consequat, non blandit diam dapibus. Aenean vitae massa est. Suspendisse eget dui pellentesque, lacinia justo non, porttitor diam. Quisque auctor justo viverra tristique elementum. Curabitur condimentum velit libero, sed molestie ex placerat et.<br>
-						</p>
-					</div>
-
+							</ul>
+						</div>
 				</div>
 				
 
@@ -144,54 +167,60 @@
 				<div class="milieu">
 
 					<div class="photo"></div>
-					<div class="article">
-						<h2>Ici un résumé de quelque chose</h2>
+						<div class="article">
+							<h2>Ici un résumé de quelque chose</h2>
 
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras eu viverra justo. Etiam ultricies fringilla neque, dictum lobortis ante commodo non. Etiam sagittis orci sapien. Morbi eget justo ipsum. Duis vitae pulvinar elit. Nam dapibus nisi dui, id iaculis lacus rutrum sed. Ut vestibulum metus eu nibh varius, a feugiat elit pharetra. Etiam fermentum quam eu molestie gravida. Quisque eu est quis lacus molestie sollicitudin. Aliquam accumsan lectus a ipsum sodales rhoncus. Curabitur lorem tellus, pellentesque vel libero et, elementum lobortis metus.<br>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras eu viverra justo. Etiam ultricies fringilla neque, dictum lobortis ante commodo non. Etiam sagittis orci sapien. Morbi eget justo ipsum. Duis vitae pulvinar elit. Nam dapibus nisi dui, id iaculis lacus rutrum sed. Ut vestibulum metus eu nibh varius, a feugiat elit pharetra. Etiam fermentum quam eu molestie gravida. Quisque eu est quis lacus molestie sollicitudin. Aliquam accumsan lectus a ipsum sodales rhoncus. Curabitur lorem tellus, pellentesque vel libero et, elementum lobortis metus.<br>
 
-						Ut congue nulla ligula, nec ornare tortor suscipit in. Etiam quis justo vel augue luctus mattis. Nullam a erat molestie leo elementum vulputate blandit eu velit. Ut eu tincidunt lacus. Phasellus id est nulla. Donec maximus viverra orci in mollis. Sed eget mauris quis enim malesuada maximus. Praesent interdum vehicula lorem ut imperdiet. Vestibulum id quam pellentesque, dapibus nisi at, ornare nulla. Sed pulvinar scelerisque leo, non bibendum ex tempor sed.</p>
-					</div>
+							Ut congue nulla ligula, nec ornare tortor suscipit in. Etiam quis justo vel augue luctus mattis. Nullam a erat molestie leo elementum vulputate blandit eu velit. Ut eu tincidunt lacus. Phasellus id est nulla. Donec maximus viverra orci in mollis. Sed eget mauris quis enim malesuada maximus. Praesent interdum vehicula lorem ut imperdiet. Vestibulum id quam pellentesque, dapibus nisi at, ornare nulla. Sed pulvinar scelerisque leo, non bibendum ex tempor sed.<br>
+
+							Ut congue nulla ligula, nec ornare tortor suscipit in. Etiam quis justo vel augue luctus mattis. Nullam a erat molestie leo elementum vulputate blandit eu velit. Ut eu tincidunt lacus. Phasellus id est nulla. Donec maximus viverra orci in mollis. Sed eget mauris quis enim malesuada maximus. Praesent interdum vehicula lorem ut imperdiet. Vestibulum id quam pellentesque, dapibus nisi at, ornare nulla. Sed pulvinar scelerisque leo, non bibendum ex tempor sed.<br>
+							Ut congue nulla ligula, nec ornare tortor suscipit in. Etiam quis justo vel augue luctus mattis. Nullam a erat molestie leo elementum vulputate blandit eu velit. Ut eu tincidunt lacus. Phasellus id est nulla. Donec maximus viverra orci in mollis. Sed eget mauris quis enim malesuada maximus. Praesent interdum vehicula lorem ut imperdiet. Vestibulum id quam pellentesque, dapibus nisi at, ornare nulla. Sed pulvinar scelerisque leo, non bibendum ex tempor sed.
+							</p>
+						</div>
 
 				</div>
 
 
 				<aside class="cote1">
 
-					<h3>côté1</h3>
-					<p>Grosse photo</p>
-					<p>Gros texte</p>
+					
 					<div class="photo"></div>
-					<div class="article"></div>
+					<div class="article1">
+						<iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FCevennes-Web-1709950245968645%2F%3Fref%3Dbookmarks&tabs=timeline&width=340&height=500&small_header=true&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="340" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+					</div>
 
 				</aside>
 
-				<aside class="cote2">
+			<!--	<aside class="cote2">
 
-					<h3>côté2</h3>
-					<p>Grosse photo</p>
-					<p>Gros texte</p>
+					
 					<div class="photo"></div>
-					<div class="article"></div>
+					<div class="article">
+					      <p>hey</p>
+          
+						
+					</div>
 
-				</aside>
+				</aside> -->
 
 				
 
 
 				<div class="bas">
 
-					<h2>bas</h2>
-					<p>Grosse photo</p>
-					<p>Gros texte</p>
-					<div class="photo"></div>
-					<div class="article">
-						<h2>Ici un résumé de quelque chose</h2>
-						
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras eu viverra justo. Etiam ultricies fringilla neque, dictum lobortis ante commodo non. Etiam sagittis orci sapien. Morbi eget justo ipsum. Duis vitae pulvinar elit. Nam dapibus nisi dui, id iaculis lacus rutrum sed. Ut vestibulum metus eu nibh varius, a feugiat elit pharetra. Etiam fermentum quam eu molestie gravida. Quisque eu est quis lacus molestie sollicitudin. Aliquam accumsan lectus a ipsum sodales rhoncus. Curabitur lorem tellus, pellentesque vel libero et, elementum lobortis metus.<br>
+					<div id="car">
 
-						Ut congue nulla ligula, nec ornare tortor suscipit in. Etiam quis justo vel augue luctus mattis. Nullam a erat molestie leo elementum vulputate blandit eu velit. Ut eu tincidunt lacus. Phasellus id est nulla. Donec maximus viverra orci in mollis. Sed eget mauris quis enim malesuada maximus. Praesent interdum vehicula lorem ut imperdiet. Vestibulum id quam pellentesque, dapibus nisi at, ornare nulla. Sed pulvinar scelerisque leo, non bibendum ex tempor sed.</p>
+						<ul>
+
+							<li>Avis 1:<br> blabla blablablablabla blablablablabla blablablablabla blablabla</li>
+							<li> Avis 2:<br> blabla blablablablabla blablablablabla blablablablabla blablablablabla blablabla</li>
+							<li> Avis 3:<br> blabla blablablablabla blablablablabla blablabla</li>
+
+						</ul>
+
 					</div>
-					</div>
+					
 
 				</div>
 
@@ -202,10 +231,104 @@
 
 		<footer>
 
-			<p>Là le bas</p>
-			<div class="resum"></div>
+			<div id="fh5co-footer">
+				<div class="container">
+					<div class="row row-padded">
+						<div class="col-md-12 text-center">
+							<p class="to-animate">&copy; 2017, a B_wood Production<br> Designed by <a href="***" target="_blank">BWOOD</a>  <br> Tout droits réservé, <a href="***" target="_blank">Cèvennes-Web</a>
+							</p>
+							<p class="text-center to-animate"><a href="#" class="js-gotop">Aller en haut</a></p>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12 text-center">
+							<ul class="fh5co-social">
+								<li class="to-animate-2"><a href="#"><i class="icon-facebook"></i></a></li>
+								<li class="to-animate-2"><a href="#"><i class="icon-twitter"></i></a></li>
+								<li class="to-animate-2"><a href="#"><i class="icon-instagram"></i></a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
 
 		</footer>
+
+		<script type="text/javascript">
+			function toggle_div(button, resume) { // On déclare la fonction toggle_div qui prend en param le bouton et un id
+			  var div = document.getElementById(resume); // On récupère le div ciblé grâce à l'id
+			  if(div.style.display=="none") { // Si le div est masqué...
+			    div.style.display = "block"; // ... on l'affiche...
+			    bouton.innerHTML = "Référencement"; // ... et on change le contenu du bouton.
+			  } else { // S'il est visible...
+			    div.style.display = "none"; // ... on le masque...
+			    bouton.innerHTML = "Référencement"; // ... et on change le contenu du bouton.
+			  }
+			}
+		</script>
+		<script>
+			function toggle_div(button, resume1) { 
+			  var div = document.getElementById(resume1); 
+			  if(div.style.display=="none") {
+			    div.style.display = "block"; 
+			    bouton.innerHTML = "Référencement"; 
+			  } else { 
+			    div.style.display = "none"; 
+			    bouton.innerHTML = "Référencement"; 
+			  }
+			}
+			</script>
+			<script>
+			function toggle_div(button, resume2) { 
+			  var div = document.getElementById(resume2); 
+			  if(div.style.display=="none") { 
+			    div.style.display = "block"; 
+			    bouton.innerHTML = "Référencement"; 
+			  } else { 
+			    div.style.display = "none"; 
+			    bouton.innerHTML = "Référencement"; 
+			  }
+			}
+			</script>
+			<script>
+			function toggle_div(button, resume3) { 
+			  var div = document.getElementById(resume3); 
+			  if(div.style.display=="none") { 
+			    div.style.display = "block"; 
+			    bouton.innerHTML = "Référencement"; 
+			  } else { 
+			    div.style.display = "none"; 
+			    bouton.innerHTML = "Référencement";
+			  }
+			}
+			</script>
+			<script>
+			function toggle_div(button, resume4) { 
+			  var div = document.getElementById(resume4); 
+			  if(div.style.display=="none") { 
+			    div.style.display = "block"; 
+			    bouton.innerHTML = "Référencement"; 
+			  } else { 
+			    div.style.display = "none"; 
+			    bouton.innerHTML = "Référencement"; 
+			  }
+			}
+			</script>
+			<script>
+			function toggle_div(button, resume5) { 
+			  var div = document.getElementById(resume5); 
+			  if(div.style.display=="none") { 
+			    div.style.display = "block"; 
+			    bouton.innerHTML = "Référencement"; 
+			  } else { 
+			    div.style.display = "none"; 
+			    bouton.innerHTML = "Référencement"; 
+			  }
+			}
+		</script>
+		
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
 
 	</body>
 
