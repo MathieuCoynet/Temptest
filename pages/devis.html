@@ -116,7 +116,56 @@
 
 		<main>
 
-			<div class="haut">1</div>
+			<div class="haut">
+				
+				<form method="post" action="../devis.php">
+
+					<label for="nom">Votre nom (ou nom de l'entreprise):</label>
+					<input type="text" name="Nom" id="nom" placeholder="Exemple" size="30" maxlength="15" required="" /><br>
+
+					<label for="email">Votre adresse mail :</label>
+					<input type="email" name="email" id="email" placeholder="Ex: adresse@mail.com" size="30" maxlength="25" required=""><br>
+
+					<label for="tel">Votre téléphone (non obligatoire):</label>
+					<input type="tel" name="telephone" id="telephone" placeholder="Ex: 0000000000" size="15" maxlength="10"><br>
+
+					<p>
+
+						<label for="orga">Qui êtes-vous?</label><br>
+						<select form="orga" id="orga">
+
+							<option value="entreprise">Entreprise</option>
+							<option value="association">Association</option>
+							<option value="solo">Nom propre</option>
+							<option value="autre">Autre</option>
+
+						</select>
+
+					</p>
+
+					<p>
+						Cochez les éléments que vous voudriez : <br>
+
+						<input type="checkbox" name="responsiv" id="responsiv"><label for="responsiv">Tout types d'écrans</label><br>
+						<input type="checkbox" name="map" id="mapp"><label for="map">Intégrer une GoogleMap</label><br>
+						<input type="checkbox" name="perso" id="perso"><label for="perso">Une personnalisation en ligne</label><br>
+						<input type="checkbox" name="abbo" id="abbo"><label for="abbo">Un abonnement sur le suivis du site</label><br>
+						<input type="checkbox" name="abbo2" id="abbo2"><label for="abbo2">Un abonnement sur le référencement</label><br>
+						<input type="checkbox" name="abbo3" id="abbo3"><label for="abbo3">Un abonnement plan marketing/commercial</label><br>
+						<input type="checkbox" name="abbo4" id="abbo4"><label for="abbo4">Un abonnement réseaux sociaux</label><br>
+					</p>
+				
+					<p>
+						<label for="plus">Dites nous en quelques mots ce que vous voudriez et qui n'est pas dans la liste</label><br>
+						<textarea name="plus" id="plus" rows="10" cols="50" placeholder="Ex: Bonjour, je cherche ..."></textarea>
+					</p>
+					<input type="submit" value="Envoyer" />
+				</form>
+
+
+
+			</div>
+
 			<div class="milieu">2</div>
 			<div class="cote1">3</div>
 			<div class="cote2">4</div>
