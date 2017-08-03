@@ -162,6 +162,14 @@ li{
 
 }
 
+.milieud{
+
+	background-color: rgba(250, 250, 250, 0.5);
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+}
+
 .cote1{
 
 	color: #fff;
